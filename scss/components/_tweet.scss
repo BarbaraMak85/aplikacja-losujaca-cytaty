@@ -1,0 +1,65 @@
+body {
+    background-color: #0099FF;
+}
+
+.trigger {
+    width: 400px;
+    height: 50px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Bitter', serif;
+    outline: none;
+    border: solid;
+    border-color: #fffF;
+    border-radius: 6px;
+    border-width: 1px;
+    background-color: #0099FF;
+    cursor: pointer;
+    &:hover {
+        background-color: #fff;
+        color: #0099FF;
+        transition: all .4s ease-in-out;
+    }
+}
+
+.tweet,
+i,
+a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Bitter', serif;
+    &:hover {
+        color: #0099FF;
+    }
+}
+
+.button {
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Bitter', serif;
+}
+
+.box {
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.quote {
+    margin-top: 80px;
+    font-family: 'Dancing Script';
+    font-size: 25px;
+}
+
+.author {
+    font-family: 'Bitter', serif;
+}
